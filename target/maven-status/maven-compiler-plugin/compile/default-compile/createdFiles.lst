@@ -1,0 +1,15 @@
+parkingspot\Application.class
+parkingspot\model\CustomerDto.class
+parkingspot\service\CustomerService.class
+parkingspot\config\WebSecurityConfiguration.class
+parkingspot\validation\FutureDateValidator.class
+parkingspot\model\Customer.class
+parkingspot\validation\FutureDate.class
+parkingspot\ApplicationController.class
+parkingspot\model\Reservation.class
+parkingspot\model\ReservationDto.class
+parkingspot\model\ReservationDto$ReservationDtoBuilder.class
+parkingspot\model\Reservation$ReservationBuilder.class
+parkingspot\model\Customer$CustomerBuilder.class
+parkingspot\service\ReservationService.class
+parkingspot\model\CustomerDto$CustomerDtoBuilder.class
