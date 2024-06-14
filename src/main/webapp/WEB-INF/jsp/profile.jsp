@@ -15,11 +15,11 @@
 <br>
 
 <div>
-    <form action="${contextPath}/reservation" method="POST">
-        <div><label for="date"> Data: <input type="text" id="date" name="date" required placeholder="yyyy-MM-dd"> </label></div>
+    <form:form action="${contextPath}/reservation" method="POST" modelAttribute="reservationForm">
+        <div><label for="date"> Data: <form:input type="text" path="date" required="required" placeholder="yyyy-MM-dd"/> </label></div>
         <br>
         <div><input type="submit" value="Zarezerwuj"/></div>
-    </form>
+    </form:form>
 </div>
 <br>
 
